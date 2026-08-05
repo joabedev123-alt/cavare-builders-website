@@ -1,0 +1,59 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-brand-black: #0D0D0D;
+  --color-brand-dark: #1A1917;
+  --color-brand-marble: #F6F2EB;
+  --color-brand-stone: #E6E2DA;
+  --color-brand-gold: #C8A561;
+  --color-brand-walnut: #C8A47A;
+  --color-brand-oak: #E1C79B;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-profile: sRGB;
+}
+
+body {
+  background-color: #F6F2EB;
+  color: #0D0D0D;
+  font-family: var(--font-sans), 'Manrope', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0D0D0D;
+}
+::-webkit-scrollbar-thumb {
+  background: #C8A561;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e1c79b;
+}
+
+/* Focus styles for WCAG 2.1 AA accessibility */
+*:focus-visible {
+  outline: 2px solid #C8A561 !important;
+  outline-offset: 3px !important;
+}
+
+/* Reduced motion preference respect */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
