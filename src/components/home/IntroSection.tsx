@@ -77,7 +77,7 @@ export const IntroSection: React.FC = () => {
               {/* Primary Large Image */}
               <div className="relative h-[420px] sm:h-[480px] w-full rounded-sm overflow-hidden shadow-card border border-brand-stone">
                 <Image
-                  src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=85"
+                  src="/images/Full-renovation-company-remodeling-in-Fort-Lauderdale-scaled.jpeg"
                   alt="Interior transformation detail by Cavare Builders"
                   fill
                   className="object-cover object-center hover:scale-105 transition-transform duration-700"
@@ -87,7 +87,7 @@ export const IntroSection: React.FC = () => {
               {/* Secondary Overlapping Inset Image */}
               <div className="absolute -bottom-8 -left-6 sm:-left-10 w-3/5 h-52 sm:h-60 rounded-sm overflow-hidden shadow-floating border-4 border-brand-marble">
                 <Image
-                  src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=85"
+                  src="/images/1-custom-furniture-wall-panels-decorative-wall-panels-wood-slat-walls-fluted-wall-panels-feature-walls-accent-walls-custom-millworkt-custom-cabinetry-scaled.jpg"
                   alt="Kitchen renovation craftsmanship by Cavare Builders"
                   fill
                   className="object-cover object-center"

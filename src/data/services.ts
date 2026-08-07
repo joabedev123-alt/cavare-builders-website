@@ -22,8 +22,7 @@ export const servicesData: ServiceItem[] = [
     detailedOverview:
       "Our full home remodeling service reimagines your property from structural planning to final decorative trim. We coordinate architecture, plumbing, electrical, framing, and interior finishes in one seamless process tailored for South Florida living.",
     icon: "house-door",
-    imageUrl:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85",
+    imageUrl: "/images/Full-renovation-remodeling-in-Fort-Lauderdale-scaled.jpeg",
     highlights: [
       "Architectural layout optimization",
       "Structural reconfigurations & open-concept spaces",
@@ -44,8 +43,7 @@ export const servicesData: ServiceItem[] = [
     detailedOverview:
       "The kitchen is the heart of the home. We craft bespoke kitchen interiors featuring integrated appliances, waterfall marble counter islands, custom storage solutions, architectural lighting, and high-performance fixtures.",
     icon: "grid-1x2",
-    imageUrl:
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=85",
+    imageUrl: "/images/1-Contemporary-Kitchen-Custom-Cabinetry-European-Kitchen-Design.jpeg",
     highlights: [
       "Custom built cabinetry & island design",
       "Premium quartz, granite, and marble surfaces",
@@ -66,8 +64,7 @@ export const servicesData: ServiceItem[] = [
     detailedOverview:
       "Transform your bathrooms into private sanctuaries. From custom walk-in curbless showers and freestanding soaking tubs to floating stone vanities and radiant tile work, we pay attention to every detail.",
     icon: "droplet",
-    imageUrl:
-      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=85",
+    imageUrl: "/images/Luxury-Bathroom-Remodeling-1-1-scaled.jpg",
     highlights: [
       "Custom curbless glass walk-in showers",
       "Freestanding tubs & wall-mounted vanities",
@@ -88,8 +85,7 @@ export const servicesData: ServiceItem[] = [
     detailedOverview:
       "Elevate everyday living areas with open floorplans, custom drywall niches, modern ceiling treatments, recessed LED linear trim, updated interior doors, and cohesive paint schemes.",
     icon: "layers",
-    imageUrl:
-      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=85",
+    imageUrl: "/images/1-custom-furniture-wall-panels-decorative-wall-panels-wood-slat-walls-fluted-wall-panels-feature-walls-accent-walls-custom-millworkt-custom-cabinetry-scaled.jpg",
     highlights: [
       "Wall removals & open-concept living design",
       "Coffered, tray, and smooth ceiling finishes",
@@ -110,8 +106,7 @@ export const servicesData: ServiceItem[] = [
     detailedOverview:
       "Flooring defines the continuous feel of a luxury interior. We expertly lay large-format porcelain slabs, chevron/herringbone engineered wood, polished marble, and durable luxury vinyl tile with flush transitions.",
     icon: "bounding-box-circles",
-    imageUrl:
-      "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&w=1200&q=85",
+    imageUrl: "/images/All-Types-of-Flooring-2048x1322.jpg",
     highlights: [
       "Large-format porcelain & marble slab installation",
       "Engineered hardwood & herringbone patterns",
@@ -132,8 +127,7 @@ export const servicesData: ServiceItem[] = [
     detailedOverview:
       "Enhance security, thermal insulation, sound dampening, and aesthetics with custom interior frameless doors, solid core wood doors, pivot entry doors, and hurricane impact sliding glass systems built for Florida climate.",
     icon: "door-open",
-    imageUrl:
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=85",
+    imageUrl: "/images/Impact-Windows-and-Doors-in-Lighthouse-Point-1.jpeg",
     highlights: [
       "Custom solid-core & frameless interior doors",
       "Impact glass windows & multi-slide patio doors",
@@ -154,8 +148,7 @@ export const servicesData: ServiceItem[] = [
     detailedOverview:
       "Our finish carpenters build custom storage, walk-in closet systems, media wall built-ins, slatted wood feature walls, floating credenzas, and decorative trim that maximize utility while adding distinct warmth.",
     icon: "hammer",
-    imageUrl:
-      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=85",
+    imageUrl: "/images/Luxury-closet-Custom-design-Customdesign-LuxuryDesign-luxurycustomization-closet-bycallvare.webp",
     highlights: [
       "Custom walk-in closet organizers & dressing rooms",
       "Media wall units & integrated electric fireplaces",
@@ -176,8 +169,7 @@ export const servicesData: ServiceItem[] = [
     detailedOverview:
       "Eliminate stress with structured project leadership. We handle schedule management, subcontractor supervision, material procurement timelines, municipal inspections, and rigorous daily quality control reviews.",
     icon: "kanban",
-    imageUrl:
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=85",
+    imageUrl: "/images/Architectural-workspace-with-blueprints-and-clipboard.webp",
     highlights: [
       "Comprehensive timeline & schedule tracking",
       "Subcontractor & specialized trade supervision",

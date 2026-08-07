@@ -51,7 +51,7 @@ export const metadata: Metadata = {
       "Premium construction, home remodeling, kitchen renovation, bathroom remodeling, flooring, doors, windows, and interior transformation services across Broward and Palm Beach County, Florida.",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85",
+        url: "/images/Full-House-Construction-by-Cavare-Interiors-1-scaled.jpeg",
         width: 1200,
         height: 630,
         alt: "Cavare Builders LLC Luxury Remodeling Project",
@@ -64,8 +64,13 @@ export const metadata: Metadata = {
     description:
       "Premium construction, home remodeling, kitchen renovation, bathroom remodeling, flooring, doors, windows, and interior transformation services across Broward and Palm Beach County, Florida.",
     images: [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85",
+      "/images/Full-House-Construction-by-Cavare-Interiors-1-scaled.jpeg",
     ],
+  },
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   },
   robots: {
     index: true,

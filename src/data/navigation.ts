@@ -7,19 +7,20 @@ export interface NavItem {
 export const mainNavigation: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
-  { label: "Services", href: "/#services", isAnchor: true },
+  { label: "Services", href: "/services" },
   { label: "Projects", href: "/projects" },
   { label: "Contact", href: "/contact" },
 ];
 
 export const footerServices: NavItem[] = [
-  { label: "Full Home Remodeling", href: "/#services" },
-  { label: "Kitchen Remodeling", href: "/#services" },
-  { label: "Bathroom Remodeling", href: "/#services" },
-  { label: "Interior Renovations", href: "/#services" },
-  { label: "Flooring and Surfaces", href: "/#services" },
-  { label: "Doors and Windows", href: "/#services" },
-  { label: "Custom Millwork", href: "/#services" },
+  { label: "Full Home Remodeling", href: "/services/full-home-remodeling" },
+  { label: "Kitchen Remodeling", href: "/services/kitchen-remodeling" },
+  { label: "Bathroom Remodeling", href: "/services/bathroom-remodeling" },
+  { label: "Interior Renovations", href: "/services/interior-renovations" },
+  { label: "Flooring and Surfaces", href: "/services/flooring-surfaces" },
+  { label: "Doors and Windows", href: "/services/doors-windows" },
+  { label: "Custom Millwork", href: "/services/custom-millwork" },
+  { label: "Construction Coordination", href: "/services/construction-coordination" },
 ];
 
 export const legalNavigation: NavItem[] = [

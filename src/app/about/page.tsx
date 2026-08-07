@@ -89,7 +89,7 @@ export default function AboutPage() {
 
             <div className="lg:col-span-6 relative h-[400px] sm:h-[480px] rounded-sm overflow-hidden shadow-floating border border-brand-stone">
               <Image
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85"
+                src="/images/Full-renovation-company-remodeling-in-Fort-Lauderdale-scaled.jpeg"
                 alt="Cavare Builders interior transformation craftsmanship"
                 fill
                 className="object-cover"
@@ -139,7 +139,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-6 relative h-[380px] sm:h-[450px] rounded-sm overflow-hidden border border-brand-dark-border shadow-dark">
               <Image
-                src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=85"
+                src="/images/1-Contemporary-Kitchen-Custom-Cabinetry-European-Kitchen-Design.jpeg"
                 alt="Construction with interior perspective"
                 fill
                 className="object-cover"
