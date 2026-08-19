@@ -39,13 +39,7 @@ export const Header: React.FC = () => {
   };
 
   return (
-    <header
-      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${
-        isScrolled
-          ? "bg-brand-black/90 backdrop-blur-md border-b border-brand-dark-border py-3.5 shadow-dark"
-          : "bg-gradient-to-b from-brand-black/80 via-brand-black/40 to-transparent py-5"
-      }`}
-    >
+    <header className="fixed top-0 left-0 right-0 z-40 transition-all duration-500 bg-brand-black/95 backdrop-blur-md border-b border-brand-dark-border py-3.5 shadow-dark">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Brand Logo */}
         <Logo variant="light" />

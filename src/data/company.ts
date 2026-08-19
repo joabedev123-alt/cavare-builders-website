@@ -8,10 +8,10 @@ export const companyConfig = {
     "Cavare Builders LLC delivers complete construction, remodeling, and interior transformation services across Broward and Palm Beach County. From concept to completion, every project is crafted with precision, quality, and architectural refinement.",
   
   // Contact details
-  phoneDisplay: "(954) 465-1025",
-  phoneRaw: "9544651025",
-  phoneInternational: "+1 954 465 1025",
-  whatsappNumber: "19544651025",
+  phoneDisplay: "754-315-7373",
+  phoneRaw: "7543157373",
+  phoneInternational: "+1 754 315 7373",
+  whatsappNumber: "17543157373",
   
   // Locations & Areas
   state: "Florida",
@@ -28,7 +28,7 @@ export const companyConfig = {
   ],
   
   // Business hours & availability
-  availability: "Monday – Saturday: By Appointment",
+  availability: "Horário de atendimento de 10h às 6h",
   
   // Goals & CTAs
   primaryGoalText: "Schedule a Consultation",
@@ -39,9 +39,9 @@ export const companyConfig = {
     const defaultMsg =
       "Hello, I visited the Cavare Builders LLC website and would like to schedule a consultation for my construction or remodeling project.";
     const text = encodeURIComponent(customMessage || defaultMsg);
-    return `https://wa.me/19544651025?text=${text}`;
+    return `https://wa.me/17543157373?text=${text}`;
   },
   
   // Helper for telephone link
-  getPhoneLink: () => "tel:+19544651025",
+  getPhoneLink: () => "tel:+17543157373",
 };
