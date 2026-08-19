@@ -80,7 +80,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       {/* Article Content */}
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div 
-          className="prose prose-lg prose-stone max-w-none 
+          className="prose sm:prose-lg prose-stone max-w-none 
           prose-headings:font-serif prose-headings:font-medium prose-headings:text-brand-black
           prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6
           prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4
