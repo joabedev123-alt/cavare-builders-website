@@ -20,7 +20,7 @@ export const Logo: React.FC<LogoProps> = ({
     sm: "h-10 sm:h-12",
     md: "h-12 sm:h-14",
     lg: "h-14 sm:h-18",
-    xl: "h-11 xs:h-14 sm:h-20 md:h-24", // Otimizado responsivamente para mobile e desktop
+    xl: "h-11 sm:h-20 md:h-24", // Otimizado responsivamente para mobile e desktop
   };
 
   return (
