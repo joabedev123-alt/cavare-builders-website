@@ -40,7 +40,7 @@ export const Header: React.FC = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-40 transition-all duration-500 bg-brand-black/95 backdrop-blur-md border-b border-brand-dark-border py-3.5 shadow-dark">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+      <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-12 flex items-center justify-between">
         {/* Brand Logo */}
         <Logo variant="light" />
 
@@ -68,10 +68,10 @@ export const Header: React.FC = () => {
         </nav>
 
         {/* Desktop Header Actions */}
-        <div className="hidden lg:flex items-center space-x-6">
+        <div className="hidden lg:flex items-center space-x-4 xl:space-x-6">
           <a
             href={companyConfig.getPhoneLink()}
-            className="flex items-center gap-2 text-xs uppercase tracking-wider text-brand-stone hover:text-brand-gold transition-colors font-sans"
+            className="flex items-center gap-2 text-xs uppercase tracking-wider text-brand-stone hover:text-brand-gold transition-colors font-sans whitespace-nowrap"
           >
             <i className="bi bi-telephone text-brand-gold text-sm" />
             <span>{companyConfig.phoneDisplay}</span>
@@ -79,7 +79,7 @@ export const Header: React.FC = () => {
 
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center px-5 py-2.5 bg-brand-gold hover:bg-[#d6b26e] text-brand-black font-sans text-xs uppercase tracking-wider font-semibold rounded-sm transition-all duration-300 shadow-subtle hover:shadow-floating focus:outline-none focus:ring-2 focus:ring-brand-gold focus:ring-offset-2 focus:ring-offset-brand-black"
+            className="inline-flex items-center justify-center px-4 xl:px-5 py-2 lg:py-2.5 bg-brand-gold hover:bg-[#d6b26e] text-brand-black font-sans text-[10px] xl:text-xs uppercase tracking-wider font-semibold rounded-sm transition-all duration-300 shadow-subtle hover:shadow-floating focus:outline-none focus:ring-2 focus:ring-brand-gold focus:ring-offset-2 focus:ring-offset-brand-black whitespace-nowrap"
           >
             {companyConfig.primaryGoalText}
           </Link>
