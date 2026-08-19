@@ -1,36 +1,35 @@
 import React from "react";
-import Metadata from "next";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { ContactForm } from "@/components/contact/ContactForm";
 import { companyConfig } from "@/data/company";
 
 export const metadata = {
-  title: "Contato | Cavare Builders LLC",
+  title: "Contact | Cavare Builders LLC",
   description:
-    "Agende uma consulta para reforma de casa, renovação de cozinha ou transformação de interiores com a Cavare Builders LLC.",
+    "Schedule a consultation for your home renovation, luxury kitchen remodel, or interior transformation with Cavare Builders LLC.",
 };
 
 export default function ContactPage() {
   return (
     <div className="pt-28 pb-24 bg-[#14120f] min-h-screen text-white relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 relative z-10">
-        <Breadcrumb items={[{ label: "Contato" }]} />
+        <Breadcrumb items={[{ label: "Contact" }]} />
 
         <div className="max-w-3xl mt-6">
           <div className="inline-flex items-center gap-2 mb-3">
             <span className="w-6 h-[1px] bg-brand-gold" />
             <span className="text-xs font-sans uppercase tracking-ultra font-semibold text-brand-gold">
-              CONTATE A CAVARE BUILDERS LLC
+              CONTACT CAVARE BUILDERS LLC
             </span>
           </div>
 
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl font-medium text-white tracking-tight leading-[1.15] mb-6">
-            Vamos conversar sobre <br />
-            <span className="italic font-normal text-brand-gold">o seu projeto.</span>
+            Let's talk about <br />
+            <span className="italic font-normal text-brand-gold">your project.</span>
           </h1>
 
           <p className="text-base sm:text-lg text-stone-300 font-light leading-relaxed">
-            Conte-nos sobre sua propriedade, seus objetivos e o cronograma desejado. Nossa equipe analisará suas informações e entrará em contato para discutir os próximos passos.
+            Tell us about your property, your goals, and your desired timeline. Our team will review your information and contact you to discuss the next steps.
           </p>
         </div>
       </div>
@@ -42,10 +41,10 @@ export default function ContactPage() {
           <div className="lg:col-span-5 text-white p-0 sm:p-4 space-y-8">
             <div>
               <h3 className="font-serif text-2xl font-medium text-white mb-4">
-                Informações de contato direto
+                Direct Contact Information
               </h3>
               <p className="text-sm text-stone-300 font-light leading-relaxed">
-                Para dúvidas e agendamento rápidos, entre em contato diretamente com a equipe de liderança do projeto por telefone ou WhatsApp.
+                For rapid inquiries and scheduling, please contact our project leadership team directly by phone or WhatsApp.
               </p>
             </div>
 
@@ -56,7 +55,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="text-xs font-sans uppercase tracking-widest text-brand-gold font-semibold mb-1">
-                    Telefone e WhatsApp
+                    Phone & WhatsApp
                   </h4>
                   <a
                     href={companyConfig.getPhoneLink()}
@@ -73,10 +72,10 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="text-xs font-sans uppercase tracking-widest text-brand-gold font-semibold mb-1">
-                    Área de atendimento
+                    Service Area
                   </h4>
                   <p className="text-sm text-stone-300 leading-relaxed">
-                    Condados de Broward e Palm Beach, Flórida
+                    Broward and Palm Beach Counties, Florida
                   </p>
                 </div>
               </div>
@@ -87,7 +86,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="text-xs font-sans uppercase tracking-widest text-brand-gold font-semibold mb-1">
-                    Disponibilidade
+                    Availability
                   </h4>
                   <p className="text-sm text-stone-300 leading-relaxed">
                     {companyConfig.availability}
@@ -102,7 +101,7 @@ export default function ContactPage() {
                 href={companyConfig.getPhoneLink()}
                 className="flex-1 py-3 bg-brand-gold text-brand-black font-sans text-xs uppercase tracking-wider font-bold rounded-sm text-center hover:bg-[#d6b26e] transition-colors"
               >
-                Ligue agora
+                Call Now
               </a>
 
               <a
@@ -112,7 +111,7 @@ export default function ContactPage() {
                 className="flex-1 py-3 bg-transparent border border-brand-gold/60 text-white font-sans text-xs uppercase tracking-wider font-semibold rounded-sm text-center hover:bg-white/10 transition-colors flex items-center justify-center gap-2"
               >
                 <i className="bi bi-whatsapp text-[#25D366]" />
-                <span>Converse pelo WhatsApp</span>
+                <span>Chat on WhatsApp</span>
               </a>
             </div>
           </div>

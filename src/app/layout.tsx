@@ -118,7 +118,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className={`${serifFont.variable} ${sansFont.variable} scroll-smooth`}>
+    <html lang="en-US" className={`${serifFont.variable} ${sansFont.variable} scroll-smooth`}>
       <head>
         <script
           type="application/ld+json"

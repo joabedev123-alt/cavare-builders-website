@@ -1,183 +1,80 @@
-export interface ServiceItem {
+import React from "react";
+
+export interface ServiceDetail {
   id: string;
-  number: string;
   title: string;
-  subtitle: string;
-  description: string;
-  detailedOverview: string;
-  icon: string; // Bootstrap icon class name without 'bi-'
-  imageUrl: string;
-  highlights: string[];
-  whatsappMessage: string;
+  shortDescription: string;
+  fullDescription: React.ReactNode | string;
+  icon: string;
+  imagePath?: string;
+  features: string[];
 }
 
-export const servicesData: ServiceItem[] = [
-  {
-    id: "full-home-remodeling",
-    number: "01",
-    title: "Full Home Remodeling",
-    subtitle: "Complete Property Transformations",
-    description:
-      "Complete residential transformations designed around your space, lifestyle, and long-term goals.",
-    detailedOverview:
-      "Our full home remodeling service reimagines your property from structural planning to final decorative trim. We coordinate architecture, plumbing, electrical, framing, and interior finishes in one seamless process tailored for South Florida living.",
-    icon: "house-door",
-    imageUrl: "/images/Full-renovation-remodeling-in-Fort-Lauderdale-scaled.jpeg",
-    highlights: [
-      "Architectural layout optimization",
-      "Structural reconfigurations & open-concept spaces",
-      "Electrical, plumbing & HVAC coordination",
-      "Comprehensive material selection & execution",
-      "Dedicated project management from start to finish",
-    ],
-    whatsappMessage:
-      "Hello, I would like to discuss a full home remodeling project with Cavare Builders LLC.",
-  },
-  {
-    id: "kitchen-remodeling",
-    number: "02",
-    title: "Kitchen Remodeling",
-    subtitle: "Culinary Spaces & Custom Cabinetry",
-    description:
-      "Custom kitchens combining refined cabinetry, functional layouts, quality surfaces, lighting, and precise installation.",
-    detailedOverview:
-      "The kitchen is the heart of the home. We craft bespoke kitchen interiors featuring integrated appliances, waterfall marble counter islands, custom storage solutions, architectural lighting, and high-performance fixtures.",
-    icon: "grid-1x2",
-    imageUrl: "/images/1-Contemporary-Kitchen-Custom-Cabinetry-European-Kitchen-Design.jpeg",
-    highlights: [
-      "Custom built cabinetry & island design",
-      "Premium quartz, granite, and marble surfaces",
-      "Under-cabinet & dimmable LED lighting systems",
-      "Backsplash tile & slab installation",
-      "High-end appliance integration & plumbing",
-    ],
-    whatsappMessage:
-      "Hello, I would like to schedule a consultation for a kitchen remodeling project with Cavare Builders LLC.",
-  },
-  {
-    id: "bathroom-remodeling",
-    number: "03",
-    title: "Bathroom Remodeling",
-    subtitle: "Spa-Inspired Luxury Bath Suites",
-    description:
-      "Elegant and functional bathrooms created through thoughtful planning, premium materials, and detail-focused execution.",
-    detailedOverview:
-      "Transform your bathrooms into private sanctuaries. From custom walk-in curbless showers and freestanding soaking tubs to floating stone vanities and radiant tile work, we pay attention to every detail.",
-    icon: "droplet",
-    imageUrl: "/images/Luxury-Bathroom-Remodeling-1-1-scaled.jpg",
-    highlights: [
-      "Custom curbless glass walk-in showers",
-      "Freestanding tubs & wall-mounted vanities",
-      "Large-format porcelain & natural marble tiling",
-      "Waterproofing & linear drain systems",
-      "Architectural bath fixtures & recessed niches",
-    ],
-    whatsappMessage:
-      "Hello, I would like to schedule a consultation for a bathroom remodeling project with Cavare Builders LLC.",
-  },
-  {
-    id: "interior-renovations",
-    number: "04",
-    title: "Interior Renovations",
-    subtitle: "Refined Living Areas & Flow",
-    description:
-      "Interior upgrades that improve flow, comfort, materials, lighting, finishes, and the overall character of the property.",
-    detailedOverview:
-      "Elevate everyday living areas with open floorplans, custom drywall niches, modern ceiling treatments, recessed LED linear trim, updated interior doors, and cohesive paint schemes.",
-    icon: "layers",
-    imageUrl: "/images/1-custom-furniture-wall-panels-decorative-wall-panels-wood-slat-walls-fluted-wall-panels-feature-walls-accent-walls-custom-millworkt-custom-cabinetry-scaled.jpg",
-    highlights: [
-      "Wall removals & open-concept living design",
-      "Coffered, tray, and smooth ceiling finishes",
-      "Architectural lighting design & smart switches",
-      "Drywall finishing & custom accent features",
-      "Premium paint & wall treatment applications",
-    ],
-    whatsappMessage:
-      "Hello, I would like to learn more about interior renovation services from Cavare Builders LLC.",
-  },
-  {
-    id: "flooring-surfaces",
-    number: "05",
-    title: "Flooring and Surfaces",
-    subtitle: "Precision Tiling & Hardwood",
-    description:
-      "Professional installation of porcelain, tile, engineered wood, luxury vinyl, marble, granite, and other premium surfaces.",
-    detailedOverview:
-      "Flooring defines the continuous feel of a luxury interior. We expertly lay large-format porcelain slabs, chevron/herringbone engineered wood, polished marble, and durable luxury vinyl tile with flush transitions.",
-    icon: "bounding-box-circles",
-    imageUrl: "/images/All-Types-of-Flooring-2048x1322.jpg",
-    highlights: [
-      "Large-format porcelain & marble slab installation",
-      "Engineered hardwood & herringbone patterns",
-      "Subfloor leveling & acoustic underlayment",
-      "Seamless flush floor transitions",
-      "Baseboard & shoe molding craftsmanship",
-    ],
-    whatsappMessage:
-      "Hello, I would like to inquire about flooring and surface installation with Cavare Builders LLC.",
-  },
-  {
-    id: "doors-windows",
-    number: "06",
-    title: "Doors and Windows",
-    subtitle: "Architectural Openings & Systems",
-    description:
-      "Interior doors, exterior doors, impact windows, sliding systems, and architectural solutions selected for performance and design.",
-    detailedOverview:
-      "Enhance security, thermal insulation, sound dampening, and aesthetics with custom interior frameless doors, solid core wood doors, pivot entry doors, and hurricane impact sliding glass systems built for Florida climate.",
-    icon: "door-open",
-    imageUrl: "/images/Impact-Windows-and-Doors-in-Lighthouse-Point-1.jpeg",
-    highlights: [
-      "Custom solid-core & frameless interior doors",
-      "Impact glass windows & multi-slide patio doors",
-      "Grand architectural entry pivot doors",
-      "Concealed hinge hardware & magnetic latches",
-      "Precision weather-sealing & framing",
-    ],
-    whatsappMessage:
-      "Hello, I am interested in doors and impact window solutions from Cavare Builders LLC.",
-  },
+export const servicesData: ServiceDetail[] = [
   {
     id: "custom-millwork",
-    number: "07",
-    title: "Custom Millwork and Built-ins",
-    subtitle: "Bespoke Carpentry & Closets",
-    description:
-      "Custom closets, cabinetry, wall panels, storage solutions, furniture, and architectural woodwork tailored to the property.",
-    detailedOverview:
-      "Our finish carpenters build custom storage, walk-in closet systems, media wall built-ins, slatted wood feature walls, floating credenzas, and decorative trim that maximize utility while adding distinct warmth.",
-    icon: "hammer",
-    imageUrl: "/images/Luxury-closet-Custom-design-Customdesign-LuxuryDesign-luxurycustomization-closet-bycallvare.webp",
-    highlights: [
-      "Custom walk-in closet organizers & dressing rooms",
-      "Media wall units & integrated electric fireplaces",
-      "Slatted wood accent walls & decorative paneling",
-      "Bespoke bar & wine cellar cabinetry",
-      "Integrated architectural LED channel lighting",
+    title: "Custom Millwork & Cabinetry",
+    shortDescription: "Bespoke woodwork and custom cabinetry designed to elevate your interior spaces.",
+    fullDescription: "Our master craftsmen design, build, and install custom millwork that brings unparalleled elegance to your home. From sophisticated kitchen cabinets and luxurious walk-in closets to intricate wall panels, built-in entertainment centers, and architectural wood detailing, every piece is tailored to your exact specifications using the finest materials.",
+    icon: "bi-tools",
+    imagePath: "/images/Custom-Furniture-Wall-Panels-Decorative-Wall-Panels-Wood-Slat-Walls-Fluted-Wall-Panels-Feature-Walls-Accent-Walls-Custom-Millworkt-Custom-Cabinetry-1-1-scaled.webp",
+    features: [
+      "Custom Kitchen & Bathroom Cabinetry",
+      "Walk-in Closets & Wardrobes",
+      "Built-in Entertainment Centers",
+      "Architectural Wall Panels (Wood Slat, Fluted)",
+      "Custom Bookshelves & Library Units",
+      "Premium Material Selection & Finishes"
     ],
-    whatsappMessage:
-      "Hello, I would like to discuss custom millwork and built-ins with Cavare Builders LLC.",
   },
   {
-    id: "construction-coordination",
-    number: "08",
-    title: "Construction Coordination",
-    subtitle: "Organized Project Leadership",
-    description:
-      "Organized project planning, trade coordination, documentation, execution oversight, and final quality review.",
-    detailedOverview:
-      "Eliminate stress with structured project leadership. We handle schedule management, subcontractor supervision, material procurement timelines, municipal inspections, and rigorous daily quality control reviews.",
-    icon: "kanban",
-    imageUrl: "/images/Architectural-workspace-with-blueprints-and-clipboard.webp",
-    highlights: [
-      "Comprehensive timeline & schedule tracking",
-      "Subcontractor & specialized trade supervision",
-      "Material lead time management & staging",
-      "Daily site cleanliness & protection standards",
-      "Final punch-list walkthrough & quality sign-off",
+    id: "full-renovations",
+    title: "Full Home Renovations",
+    shortDescription: "Complete interior and exterior transformations executed with precision and high-end design.",
+    fullDescription: "We specialize in comprehensive gut rehabs and full home renovations. Whether you are modernizing a historic property or completely reimagining a recently purchased home, our team manages every phase of the project. From demolition, structural upgrades, and MEP (Mechanical, Electrical, Plumbing) installations to the final luxurious finishes, we deliver turnkey results.",
+    icon: "bi-house-gear",
+    imagePath: "/images/New-house-construction-and-Impact-windows-and-doors-in-lighthouse-point-florida-1.jpeg",
+    features: [
+      "Complete Demolition & Structural Upgrades",
+      "MEP (Mechanical, Electrical, Plumbing) Modernization",
+      "Drywall, Framing & Insulation",
+      "Impact Windows & Doors Installation",
+      "Premium Flooring Installation",
+      "Turnkey Project Management"
     ],
-    whatsappMessage:
-      "Hello, I would like to inquire about project planning and construction coordination with Cavare Builders LLC.",
   },
+  {
+    id: "kitchen-bath",
+    title: "Kitchen & Bathroom Remodeling",
+    shortDescription: "Luxurious, high-performance spaces tailored to your lifestyle and aesthetic vision.",
+    fullDescription: "The kitchen and master bathroom are the cornerstones of luxury living. We transform these essential spaces using top-tier materials such as Taj Mahal Quartzite, backlit onyx, and European handleless cabinetry for kitchens. For bathrooms, we create spa-like retreats featuring zero-entry walk-in showers, freestanding tubs, smart lighting, and continuous large-format porcelain or marble surfaces.",
+    icon: "bi-droplet",
+    imagePath: "/images/Contemporary-Kitchen-Custom-Cabinetry-European-Kitchen-Design-41.jpeg",
+    features: [
+      "European & Transitional Kitchen Designs",
+      "Exotic Stone & Quartzite Countertops",
+      "Spa-Inspired Master Bathrooms",
+      "Zero-entry Walk-in Showers & Freestanding Tubs",
+      "Custom Vanities & Smart Lighting",
+      "High-End Fixtures & Hardware"
+    ],
+  },
+  {
+    id: "outdoor-spaces",
+    title: "Outdoor Living & Pools",
+    shortDescription: "Extending your luxury lifestyle to the outdoors with custom pergolas, decks, and pool areas.",
+    fullDescription: "Embrace the South Florida lifestyle with our premium outdoor living solutions. We design and construct custom aluminum pergolas, elegant pool decks, porcelain or travertine pavers, and architectural fencing. Our goal is to create a seamless transition between your indoor comfort and outdoor entertainment, ensuring durability against the coastal climate without compromising on style.",
+    icon: "bi-sun",
+    imagePath: "/images/Aluminum-Pergola-in-Boca-Raton-by-Cavare.jpeg",
+    features: [
+      "Custom Aluminum Louvered Pergolas",
+      "Pool Deck Leveling & Resurfacing",
+      "Premium Pavers (Porcelain, Travertine, Natural Stone)",
+      "Architectural Privacy Fencing",
+      "Outdoor Kitchens & Entertainment Areas",
+      "Seamless Indoor-Outdoor Integration"
+    ],
+  }
 ];
+
+export const getServiceById = (id: string) => servicesData.find(service => service.id === id);
