@@ -123,7 +123,7 @@ export const Footer: React.FC = () => {
                 <i className="bi bi-tiktok text-sm"></i>
               </a>
               <a 
-                href="#" 
+                href="https://www.instagram.com/cavarebuilders/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="Cavare Interiors on Instagram"
@@ -132,7 +132,7 @@ export const Footer: React.FC = () => {
                 <i className="bi bi-instagram text-sm"></i>
               </a>
               <a 
-                href="#" 
+                href="https://www.facebook.com/cavarebuilders" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="Cavare Interiors on Facebook"
