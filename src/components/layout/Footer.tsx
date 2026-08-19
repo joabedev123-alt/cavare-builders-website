@@ -140,6 +140,15 @@ export const Footer: React.FC = () => {
               >
                 <i className="bi bi-facebook text-sm"></i>
               </a>
+              <a 
+                href="https://www.youtube.com/@CavareBuilders" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="Cavare Builders on YouTube"
+                className="w-8 h-8 rounded-full border border-brand-dark-border flex items-center justify-center text-brand-stone hover:text-brand-gold hover:border-brand-gold transition-colors"
+              >
+                <i className="bi bi-youtube text-sm"></i>
+              </a>
             </div>
           </div>
         </div>
