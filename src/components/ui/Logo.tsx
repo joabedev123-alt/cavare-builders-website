@@ -31,7 +31,7 @@ export const Logo: React.FC<LogoProps> = ({
     >
       <div className="relative flex items-center">
         <Image
-          src="/logo.png"
+          src="/logo-Photoroom.png"
           alt="Cavare Builders LLC Logo"
           width={320}
           height={100}

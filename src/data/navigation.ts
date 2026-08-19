@@ -1,47 +1,32 @@
-export interface NavigationItem {
+export interface NavItem {
   label: string;
   href: string;
-  children?: NavigationItem[];
+  isAnchor?: boolean;
 }
 
-export const mainNavigation: NavigationItem[] = [
-  {
-    label: "Home",
-    href: "/",
-  },
-  {
-    label: "About Us",
-    href: "/about",
-  },
-  {
-    label: "Services",
-    href: "/services",
-  },
-  {
-    label: "Projects",
-    href: "/projects",
-  },
-  {
-    label: "Blog",
-    href: "/blog",
-  },
+export const mainNavigation: NavItem[] = [
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Services", href: "/services" },
+  { label: "Projects", href: "/projects" },
+  { label: "Insights", href: "/insights" },
+  { label: "Blog", href: "/blog" },
+  { label: "Contact", href: "/contact" },
 ];
 
-export const footerNavigation = {
-  company: [
-    { label: "About Cavare", href: "/about" },
-    { label: "Our History", href: "/about#history" },
-    { label: "Careers", href: "/about#careers" },
-    { label: "Contact", href: "/contact" },
-  ],
-  services: [
-    { label: "Custom Millwork", href: "/services" },
-    { label: "Full Renovations", href: "/services" },
-    { label: "Kitchens & Bathrooms", href: "/services" },
-    { label: "Outdoor Spaces", href: "/services" },
-  ],
-  legal: [
-    { label: "Privacy Policy", href: "/privacy" },
-    { label: "Terms of Service", href: "/terms" },
-  ],
-};
+export const footerServices: NavItem[] = [
+  { label: "Full Home Remodeling", href: "/services/full-home-remodeling" },
+  { label: "Kitchen Remodeling", href: "/services/kitchen-remodeling" },
+  { label: "Bathroom Remodeling", href: "/services/bathroom-remodeling" },
+  { label: "Interior Renovations", href: "/services/interior-renovations" },
+  { label: "Flooring and Surfaces", href: "/services/flooring-surfaces" },
+  { label: "Doors and Windows", href: "/services/doors-windows" },
+  { label: "Custom Millwork", href: "/services/custom-millwork" },
+  { label: "Construction Coordination", href: "/services/construction-coordination" },
+];
+
+export const legalNavigation: NavItem[] = [
+  { label: "Privacy Policy", href: "/privacy" },
+  { label: "Terms of Use", href: "/terms" },
+  { label: "Accessibility", href: "/accessibility" },
+];

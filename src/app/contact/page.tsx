@@ -1,4 +1,5 @@
 import React from "react";
+import Metadata from "next";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { ContactForm } from "@/components/contact/ContactForm";
 import { companyConfig } from "@/data/company";
@@ -6,7 +7,7 @@ import { companyConfig } from "@/data/company";
 export const metadata = {
   title: "Contact | Cavare Builders LLC",
   description:
-    "Schedule a consultation for your home renovation, luxury kitchen remodel, or interior transformation with Cavare Builders LLC.",
+    "Schedule a consultation for a home remodel, kitchen renovation, or interior transformation with Cavare Builders LLC.",
 };
 
 export default function ContactPage() {
@@ -44,7 +45,7 @@ export default function ContactPage() {
                 Direct Contact Information
               </h3>
               <p className="text-sm text-stone-300 font-light leading-relaxed">
-                For rapid inquiries and scheduling, please contact our project leadership team directly by phone or WhatsApp.
+                For quick questions and scheduling, contact our project leadership team directly by phone or WhatsApp.
               </p>
             </div>
 
@@ -75,7 +76,7 @@ export default function ContactPage() {
                     Service Area
                   </h4>
                   <p className="text-sm text-stone-300 leading-relaxed">
-                    Broward and Palm Beach Counties, Florida
+                    Broward & Palm Beach Counties, Florida
                   </p>
                 </div>
               </div>

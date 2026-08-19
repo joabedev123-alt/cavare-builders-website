@@ -8,25 +8,25 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { galleryData } from "@/data/gallery";
 
 const CATEGORIES = [
-  "All",
-  "Full Renovations",
-  "Kitchen & Bath",
-  "Exteriors",
-  "Custom Millwork",
+  "Todas",
+  "Renovações Completas",
+  "Cozinhas e Banheiros",
+  "Exteriores",
+  "Marcenaria e Interiores",
 ];
 
 const PROJECTS_DATA = [
   {
     id: 1,
-    title: "Full Estate Renovation - Lighthouse Point",
-    categories: ["Full Renovations"],
+    title: "Renovação completa do imóvel - Lighthouse Point",
+    categories: ["Renovações Completas"],
     description: (
       <>
-        <p>This project represents a complete residential transformation from the foundation up, executed with precision, coordination, and the highest design standards. Every phase of the renovation was meticulously managed, seamlessly integrating structural improvements with refined interior finishes.</p>
-        <p>The scope included a total overhaul of the MEP (mechanical, electrical, and plumbing) systems, ensuring optimal performance, efficiency, and compliance with modern building codes. Structural upgrades were complemented by roof repairs, new drywall installation, impact-resistant windows and doors throughout the home, a luxurious impact entry door, and detailed finishes across the property.</p>
-        <p>The interior was reimagined with bespoke millwork and cabinetry, high-end flooring installation, and carefully selected materials that enhance both durability and aesthetic value. The kitchen and living areas were transformed into a cohesive, open-concept layout featuring custom elements and premium craftsmanship.</p>
-        <p>Exterior improvements included an expanded patio designed to elevate the outdoor living experience and create a flawless transition between indoor and outdoor environments.</p>
-        <p>Every detail, from infrastructure to the final finishes, was executed to deliver a move-in-ready residence that reflects sophistication, functionality, and long-term value.</p>
+        <p>Este projeto representa uma transformação residencial completa, desde a fundação, executada com precisão, coordenação e elevados padrões de design. Cada fase da renovação foi meticulosamente gerenciada, proporcionando uma integração perfeita entre as melhorias estruturais e os acabamentos interiores refinados.</p>
+        <p>O escopo incluiu a modernização completa dos sistemas hidráulico, elétrico e mecânico, garantindo desempenho ideal, eficiência e conformidade com as normas de construção modernas. As melhorias estruturais foram complementadas por reparos no telhado, instalação de novas paredes de drywall, novas janelas e portas resistentes a impactos em toda a casa, uma nova porta de entrada de luxo também resistente a impactos e acabamentos detalhados em toda a propriedade.</p>
+        <p>O interior foi repensado com marcenaria e armários sob medida, instalação de pisos de alta qualidade e materiais cuidadosamente selecionados que aprimoram tanto a durabilidade quanto o valor estético. A cozinha e a sala de estar foram transformadas em um layout coeso e de conceito aberto, com elementos personalizados e acabamento de alto padrão.</p>
+        <p>As melhorias externas incluíram um pátio ampliado, projetado para ampliar a experiência de vida ao ar livre e criar uma transição perfeita entre os ambientes internos e externos.</p>
+        <p>Cada detalhe, da infraestrutura aos acabamentos finais, foi executado para entregar uma residência pronta para morar, que reflete sofisticação, funcionalidade e valor a longo prazo.</p>
       </>
     ),
     images: [
@@ -38,15 +38,15 @@ const PROJECTS_DATA = [
   },
   {
     id: 2,
-    title: "Modern Home Construction - Lighthouse Point",
-    categories: ["Full Renovations"],
+    title: "Renovação completa de imóvel moderno - Lighthouse Point",
+    categories: ["Renovações Completas"],
     description: (
       <>
-        <p>This project is a complete luxury residential transformation, built from the ground up with a focus on structural integrity, sophisticated design, and exceptional craftsmanship. From the foundation to the final architectural details, every phase was carefully planned and professionally executed to deliver a flawless, high-end result.</p>
-        <p>The scope included full site preparation, foundation construction, pool installation, custom deck areas, MEP systems, and structural enhancements throughout the property. Each component was designed to integrate functionality, durability, and modern luxury.</p>
-        <p>Indoor and outdoor spaces were thoughtfully developed to create a cohesive indoor-outdoor experience, combining top-tier materials, refined finishes, and custom details tailored to the property's architecture and lifestyle.</p>
-        <p>The outdoor living areas, pool, and entertainment spaces were designed to increase comfort, elegance, and long-term property value while maintaining a sophisticated and timeless aesthetic.</p>
-        <p>From infrastructure and construction to luxury finishes and outdoor design, this project was completed with precision, coordination, and attention to every detail—delivering a move-in-ready residence built for both beauty and performance.</p>
+        <p>Este projeto representa uma transformação residencial de luxo completa, construída do zero com foco em integridade estrutural, design sofisticado e acabamento excepcional. Da fundação aos detalhes arquitetônicos finais, cada fase foi cuidadosamente planejada e executada profissionalmente para entregar um resultado impecável e de alto padrão.</p>
+        <p>O escopo incluiu preparação completa do terreno, construção da fundação, instalação da piscina, áreas de deck personalizadas, sistemas hidráulicos, elétricos e mecânicos, além de melhorias estruturais em toda a propriedade. Cada componente foi projetado para integrar funcionalidade, durabilidade e luxo moderno.</p>
+        <p>Os espaços internos e externos foram cuidadosamente desenvolvidos para criar uma experiência coesa entre interior e exterior, combinando materiais de primeira linha, acabamentos refinados e detalhes personalizados, adaptados à arquitetura e ao estilo de vida da propriedade.</p>
+        <p>As áreas de convivência ao ar livre, a piscina e os espaços de entretenimento foram projetados para aumentar o conforto, a elegância e o valor da propriedade a longo prazo, mantendo uma estética sofisticada e atemporal.</p>
+        <p>Da infraestrutura e construção aos acabamentos de luxo e ao design das áreas externas, este projeto foi concluído com precisão, coordenação e atenção a cada detalhe — entregando uma residência pronta para morar, construída para beleza e desempenho.</p>
       </>
     ),
     images: [
@@ -58,12 +58,12 @@ const PROJECTS_DATA = [
   },
   {
     id: 3,
-    title: "Premium Flooring & Bath Remodel – Fort Lauderdale",
-    categories: ["Kitchen & Bath"],
+    title: "Pisos Premium, Reforma de Cozinhas e Banheiros – Fort Lauderdale",
+    categories: ["Cozinhas e Banheiros"],
     description: (
       <>
-        <p>Located in Fort Lauderdale, this project focused on modernizing the flooring and bathrooms, resulting in a more sophisticated and functional interior.</p>
-        <p>The scope included the installation of high-quality flooring and a complete bathroom renovation, utilizing top-tier materials and specialized craftsmanship. The result is a modern and elegant space designed for everyday comfort, durability, and luxury.</p>
+        <p>Localizado em Fort Lauderdale, este projeto teve como foco a modernização dos pisos e banheiros, resultando em um interior mais sofisticado e funcional.</p>
+        <p>O escopo incluiu a instalação de pisos de alta qualidade e a reforma completa dos banheiros, utilizando materiais de primeira linha e mão de obra especializada. O resultado é um espaço moderno e elegante, projetado para conforto, durabilidade e luxo no dia a dia.</p>
       </>
     ),
     images: [
@@ -75,10 +75,10 @@ const PROJECTS_DATA = [
   },
   {
     id: 4,
-    title: "Complete Gut Rehab - Delray Beach",
-    categories: ["Full Renovations"],
+    title: "Renovação completa do imóvel - Delray Beach",
+    categories: ["Renovações Completas"],
     description: (
-      <p>A full interior renovation, including demolition, structural updates, and a total reconstruction of all living spaces. The scope covers kitchens, bathrooms, and flooring, executed with precise coordination, high-quality craftsmanship, and delivered completely move-in ready.</p>
+      <p>Reforma completa do interior, incluindo demolição, atualizações estruturais e reconstrução total de todos os espaços habitáveis. O escopo abrange cozinhas, banheiros e pisos, executados com coordenação precisa, acabamento de alta qualidade e entrega totalmente pronta para morar.</p>
     ),
     images: [
       "/images/Impact-Window-Fixed-on-Kitchen-Delray-beach.webp",
@@ -89,15 +89,15 @@ const PROJECTS_DATA = [
   },
   {
     id: 5,
-    title: "Luxury Condo Transformation – Pompano Beach",
-    categories: ["Full Renovations"],
+    title: "Transformação de Apartamento de Luxo – Pompano Beach",
+    categories: ["Renovações Completas"],
     description: (
       <>
-        <p>This project features a complete interior transformation of a residential condominium, executed with a focus on precision, efficiency, and sophisticated design. Every aspect of the renovation was carefully coordinated to provide a modern, refined environment with impeccable functionality.</p>
-        <p>The scope included a full modernization of plumbing, electrical, and mechanical installations, ensuring optimal system performance and code compliance. The internal structure was enhanced with new drywall installation, detailed finishes, and flawless surface preparation throughout the space.</p>
-        <p>The apartment was reimagined with custom cabinetry, millwork, and high-quality flooring, creating a cohesive and sophisticated aesthetic. The kitchen and living room were redesigned into an open, integrated layout, maximizing space, light, and flow, while incorporating premium materials and personalized details.</p>
-        <p>Bathrooms and living areas were modernized with contemporary finishes, offering comfort and durability. Every element—from infrastructure to final details—was executed with a commitment to artisanal quality and timeless design.</p>
-        <p>The result is a fully renovated, move-in-ready apartment that combines elegance, functionality, and long-term value.</p>
+        <p>Este projeto apresenta uma transformação completa do interior de um apartamento residencial, executada com foco em precisão, eficiência e design sofisticado. Cada aspecto da reforma foi cuidadosamente coordenado para proporcionar um ambiente moderno e refinado, com funcionalidade impecável.</p>
+        <p>O escopo incluiu a modernização completa das instalações hidráulicas, elétricas e mecânicas, garantindo o desempenho ideal dos sistemas e a conformidade com as normas vigentes. A estrutura interna foi aprimorada com a instalação de novas placas de gesso, acabamentos detalhados e preparação impecável das superfícies em todo o espaço.</p>
+        <p>O apartamento foi repensado com armários planejados, marcenaria e pisos de alta qualidade, criando uma estética coesa e sofisticada. A cozinha e a sala de estar foram redesenhadas em um layout aberto e integrado, maximizando espaço, luz e fluidez, ao mesmo tempo que incorporam materiais de primeira linha e detalhes personalizados.</p>
+        <p>Os banheiros e as salas de estar foram modernizados com acabamentos contemporâneos, oferecendo conforto e durabilidade. Cada elemento — da infraestrutura aos detalhes finais — foi executado com um compromisso com a qualidade artesanal e o design atemporal.</p>
+        <p>O resultado é um apartamento totalmente reformado, pronto para morar, que combina elegância, funcionalidade e valor a longo prazo.</p>
       </>
     ),
     images: [
@@ -109,10 +109,10 @@ const PROJECTS_DATA = [
   },
   {
     id: 6,
-    title: "Porcelain Pool Deck Installation – Boca Raton",
-    categories: ["Exteriors"],
+    title: "Instalação de Revestimento de Porcelanato em Deck de Piscina – Boca Raton",
+    categories: ["Exteriores"],
     description: (
-      <p>Preparation of the pool deck area, including leveling and base work, followed by the precise installation of tiles around the pool perimeter. The service includes proper slope for drainage, precise alignment, grouting, edge finishing, and detailed tile installation for a flawless and refined final result.</p>
+      <p>Preparação da área do deck da piscina, incluindo nivelamento e base, seguida da instalação precisa de azulejos ao redor do perímetro da piscina. O serviço inclui inclinação adequada para drenagem, alinhamento preciso, rejuntamento, acabamento das bordas e instalação detalhada do revestimento para um resultado final impecável e refinado.</p>
     ),
     images: [
       "/images/Pool-deck-pavers.webp",
@@ -123,12 +123,12 @@ const PROJECTS_DATA = [
   },
   {
     id: 7,
-    title: "Luxury Pergolas and Fencing in South Florida",
-    categories: ["Exteriors"],
+    title: "Pérgolas e cercas de luxo no sul da Flórida",
+    categories: ["Exteriores"],
     description: (
       <>
-        <p>At Cavare Interiors, we design and build custom luxury pergolas and fencing that combine elegance, privacy, durability, and exceptional craftsmanship. We proudly serve high-end residential communities, including Naples, Bonita Springs, Parkland, Lighthouse Point, Palm City, Boca Raton, Fort Lauderdale, and surrounding areas in South Florida.</p>
-        <p>From modern outdoor living spaces to custom architectural fencing, we tailor each project with premium materials, timeless design, and attention to every detail.</p>
+        <p>Na Cavare Interiors, projetamos e construímos pérgolas e cercas de luxo personalizadas que combinam elegância, privacidade, durabilidade e acabamento excepcional. Atendemos com orgulho comunidades residenciais de alto padrão, incluindo Naples, Bonita Springs, Parkland, Lighthouse Point, Palm City, Boca Raton, Fort Lauderdale e arredores no sul da Flórida.</p>
+        <p>De espaços modernos de convivência ao ar livre a cercas arquitetônicas personalizadas, adaptamos cada projeto com materiais de primeira linha, design atemporal e atenção a cada detalhe.</p>
       </>
     ),
     images: [
@@ -140,12 +140,12 @@ const PROJECTS_DATA = [
   },
   {
     id: 8,
-    title: "Luxury Kitchen Remodeling Projects",
-    categories: ["Kitchen & Bath"],
+    title: "Projetos de Remodelação de Cozinhas de Luxo",
+    categories: ["Cozinhas e Banheiros"],
     description: (
       <>
-        <p>The kitchen is the heart of the home, and at Cavare Interiors, we create spaces that flawlessly combine beauty, functionality, and lasting value. Whatever your vision—a timeless white kitchen, a cozy oak design, a sleek modern layout, a sophisticated transitional style, or a fully custom luxury kitchen—our team brings your project to life with exceptional skill and attention to detail.</p>
-        <p>From custom cabinetry and high-quality countertops to innovative storage solutions, lighting, flooring, and complete layout transformations, every element is carefully selected to enhance both aesthetics and daily life. Our goal is to create a kitchen that reflects your personal style, providing the comfort, functionality, and elegance your home deserves. With a commitment to quality and excellence, we transform ordinary kitchens into extraordinary spaces designed to be enjoyed for years to come.</p>
+        <p>A cozinha é o coração da casa e, na Cavare Interiors, criamos espaços que combinam beleza, funcionalidade e valor duradouro com perfeição. Seja qual for a sua visão — uma cozinha branca atemporal, um design aconchegante em carvalho, um layout moderno e elegante, um estilo de transição sofisticado ou uma cozinha de luxo totalmente personalizada —, nossa equipe dá vida ao seu projeto com excepcional habilidade e atenção aos detalhes.</p>
+        <p>De armários planejados e bancadas de alta qualidade a soluções inovadoras de armazenamento, iluminação, pisos e transformações completas do layout, cada elemento é cuidadosamente selecionado para aprimorar tanto a estética quanto o dia a dia. Nosso objetivo é criar uma cozinha que reflita seu estilo pessoal, proporcionando o conforto, a funcionalidade e a elegância que sua casa merece. Com um compromisso com a qualidade e a excelência, transformamos cozinhas comuns em espaços extraordinários, projetados para serem apreciados por muitos anos.</p>
       </>
     ),
     images: [
@@ -157,10 +157,10 @@ const PROJECTS_DATA = [
   },
   {
     id: 9,
-    title: "Luxury Bathroom Remodeling",
-    categories: ["Kitchen & Bath"],
+    title: "Projetos de reforma de banheiros de luxo",
+    categories: ["Cozinhas e Banheiros"],
     description: (
-      <p>Transform your bathroom into a private luxury retreat with custom designs that combine elegance, comfort, and functionality. At Cavare Interiors, we specialize in high-end bathroom remodels, featuring walk-in showers, soaking tubs, custom vanities, premium tiles, natural stones, luxury lighting, frameless glass enclosures, and designer fixtures. Whatever your style—modern, contemporary, or classic—we create beautiful, spa-inspired bathrooms with exceptional craftsmanship and attention to every detail.</p>
+      <p>Transforme seu banheiro em um refúgio de luxo privativo com projetos personalizados que combinam elegância, conforto e funcionalidade. Na Cavare Interiors, somos especialistas em reformas de banheiros de alto padrão, com chuveiros de entrada direta, banheiras de imersão, bancadas personalizadas, azulejos premium, pedras naturais, iluminação de luxo, boxes de vidro sem moldura e acessórios de design. Seja qual for o seu estilo – moderno, contemporâneo ou clássico –, criamos banheiros belíssimos, inspirados em spas, com acabamento excepcional e atenção a cada detalhe.</p>
     ),
     images: [
       "/images/Ultra-High-End-Bathroom-1-2048x1434.jpg",
@@ -171,10 +171,10 @@ const PROJECTS_DATA = [
   },
   {
     id: 10,
-    title: "Custom Furniture, Wall Panels & Interior Design",
-    categories: ["Custom Millwork"],
+    title: "Móveis sob medida, painéis de parede e design de interiores",
+    categories: ["Marcenaria e Interiores"],
     description: (
-      <p>Transform your space with custom furniture, decorative wall panels, and personalized interior design solutions that combine luxury, functionality, and exceptional craftsmanship. At Cavare Interiors, we design and build entertainment centers, media walls, built-in cabinets, accent walls, wood slat panels, fluted panels, custom shelving, and bespoke architectural millwork to your exact vision. Every detail is carefully crafted to create elegant and timeless interiors that enhance both residential and commercial spaces.</p>
+      <p>Transforme seu espaço com móveis sob medida, painéis de parede decorativos e soluções de design de interiores personalizadas que combinam luxo, funcionalidade e acabamento excepcional. Na Cavare Interiors, projetamos e construímos centros de entretenimento, painéis multimídia, armários embutidos, paredes de destaque, painéis ripados de madeira, painéis canelados, prateleiras personalizadas e marcenaria arquitetônica sob medida para a sua visão. Cada detalhe é cuidadosamente elaborado para criar interiores elegantes e atemporais que valorizam tanto espaços residenciais quanto comerciais.</p>
     ),
     images: [
       "/images/Custom-Furniture-Wall-Panels-Decorative-Wall-Panels-Wood-Slat-Walls-Fluted-Wall-Panels-Feature-Walls-Accent-Walls-Custom-Millworkt-Custom-Cabinetry-1-1-scaled.webp",
@@ -205,7 +205,7 @@ function ProjectSection({ title, description, images }: ProjectSectionProps) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {images.map((img, idx) => (
             <div key={idx} className="relative h-64 sm:h-72 w-full overflow-hidden rounded-sm border border-brand-stone/60 group">
-              <Image src={img} alt={`${title} - photo ${idx + 1}`} fill className="object-cover group-hover:scale-[1.03] transition-transform duration-700" />
+              <Image src={img} alt={`${title} - foto ${idx + 1}`} fill className="object-cover group-hover:scale-[1.03] transition-transform duration-700" />
             </div>
           ))}
         </div>
@@ -215,7 +215,7 @@ function ProjectSection({ title, description, images }: ProjectSectionProps) {
 }
 
 export function ProjectsClient() {
-  const [activeCategory, setActiveCategory] = useState("All");
+  const [activeCategory, setActiveCategory] = useState("Todas");
   const [visibleGalleryCount, setVisibleGalleryCount] = useState(24);
 
   useEffect(() => {
@@ -223,26 +223,17 @@ export function ProjectsClient() {
   }, [activeCategory]);
 
   const filteredProjects = useMemo(() => {
-    if (activeCategory === "All") {
+    if (activeCategory === "Todas") {
       return PROJECTS_DATA;
     }
     return PROJECTS_DATA.filter(project => project.categories.includes(activeCategory));
   }, [activeCategory]);
 
-  // Map Portuguese gallery categories to English
-  const getMappedGalleryCategory = (category: string) => {
-    if (category === "Renovações Completas") return "Full Renovations";
-    if (category === "Cozinhas e Banheiros") return "Kitchen & Bath";
-    if (category === "Exteriores") return "Exteriors";
-    if (category === "Marcenaria e Interiores") return "Custom Millwork";
-    return category;
-  };
-
   const filteredGallery = useMemo(() => {
-    if (activeCategory === "All") {
+    if (activeCategory === "Todas") {
       return galleryData;
     }
-    return galleryData.filter(img => getMappedGalleryCategory(img.category) === activeCategory);
+    return galleryData.filter(img => img.category === activeCategory);
   }, [activeCategory]);
 
   const visibleGalleryImages = filteredGallery.slice(0, visibleGalleryCount);
@@ -252,24 +243,24 @@ export function ProjectsClient() {
     <div className="pt-28 pb-0 bg-brand-marble min-h-screen">
       {/* Header Banner */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
-        <Breadcrumb items={[{ label: "Projects" }]} />
+        <Breadcrumb items={[{ label: "Projetos" }]} />
 
         <div className="max-w-3xl mt-6 text-center mx-auto">
           <div className="inline-flex items-center gap-2 mb-3">
             <span className="w-6 h-[1px] bg-brand-gold" />
             <span className="text-xs font-sans uppercase tracking-ultra font-semibold text-brand-gold">
-              CAVARE PORTFOLIO
+              PROJETOS DA CAVARE
             </span>
             <span className="w-6 h-[1px] bg-brand-gold" />
           </div>
 
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl font-medium text-brand-black tracking-tight leading-[1.15] mb-6">
-            Our Work: <br />
-            <span className="italic font-normal text-brand-gold">Real Projects. Refined Results.</span>
+            Nosso trabalho: <br />
+            <span className="italic font-normal text-brand-gold">Projetos reais. Resultados refinados.</span>
           </h1>
 
           <p className="text-base sm:text-lg text-brand-muted font-light leading-relaxed">
-            Cavare Interiors presents a curated portfolio of completed luxury projects across South and Southwest Florida, including Naples, Cape Coral, Pompano Beach, Fort Lauderdale, Boca Raton, Palm Beach, and surrounding luxury communities.
+            A Cavare Interiors apresenta um portfólio selecionado de projetos concluídos no sul e sudoeste da Flórida, incluindo Naples, Cape Coral, Pompano Beach, Fort Lauderdale, Boca Raton, Palm Beach e comunidades de luxo vizinhas.
           </p>
         </div>
       </div>
@@ -294,7 +285,7 @@ export function ProjectsClient() {
       </div>
 
       <div className="border-t border-brand-stone/40">
-        <div className="min-h-[20vh]">
+        <div className="min-h-[50vh]">
           {filteredProjects.length > 0 ? (
             filteredProjects.map((project) => (
               <ProjectSection
@@ -304,7 +295,11 @@ export function ProjectsClient() {
                 images={project.images}
               />
             ))
-          ) : null}
+          ) : (
+            <div className="py-20 text-center text-brand-muted font-medium text-lg">
+              Nenhum projeto encontrado nesta categoria.
+            </div>
+          )}
         </div>
 
         {/* FULL GALLERY SECTION */}
@@ -312,18 +307,18 @@ export function ProjectsClient() {
           <section className="py-24 bg-[#faf9f6]">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-16">
-                <h3 className="font-serif text-3xl sm:text-4xl text-brand-black mb-4">Inspiration Gallery</h3>
+                <h3 className="font-serif text-3xl sm:text-4xl text-brand-black mb-4">Galeria de Inspirações</h3>
                 <p className="text-base text-brand-muted font-light max-w-2xl mx-auto">
-                  Explore hundreds of exclusive photos from our ongoing and completed projects.
+                  Explore centenas de fotos exclusivas dos nossos projetos.
                 </p>
               </div>
 
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 auto-rows-[250px]">
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {visibleGalleryImages.map((img, idx) => (
-                  <div key={idx} className="relative w-full h-full overflow-hidden rounded-sm group shadow-sm bg-brand-stone/20">
+                  <div key={idx} className="relative w-full aspect-square overflow-hidden rounded-sm group shadow-sm bg-brand-stone/20">
                     <Image 
                       src={img.src} 
-                      alt={`${activeCategory} Inspiration ${idx + 1}`} 
+                      alt={`Inspiração ${activeCategory} ${idx + 1}`} 
                       fill 
                       sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
                       className="object-cover group-hover:scale-[1.05] transition-transform duration-700" 
@@ -339,10 +334,10 @@ export function ProjectsClient() {
                     onClick={() => setVisibleGalleryCount((prev) => prev + 24)}
                     className="inline-flex items-center justify-center px-10 py-4 border border-brand-gold bg-brand-gold text-brand-black hover:bg-[#d6b26e] font-sans text-xs uppercase tracking-widest font-bold rounded-sm transition-all duration-300 shadow-sm"
                   >
-                    Load More Photos
+                    Carregar Mais Fotos
                   </button>
                   <p className="mt-4 text-xs text-brand-stone font-medium">
-                    Showing {visibleGalleryImages.length} of {filteredGallery.length} photos
+                    Mostrando {visibleGalleryImages.length} de {filteredGallery.length} fotos
                   </p>
                 </div>
               )}
@@ -352,15 +347,15 @@ export function ProjectsClient() {
         
         <section className="py-20 bg-brand-black text-brand-marble border-t border-brand-dark-border">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="font-serif text-3xl sm:text-4xl text-brand-gold mb-6">Excellence is always under construction.</h2>
+            <h2 className="font-serif text-3xl sm:text-4xl text-brand-gold mb-6">A excelência está sempre em construção.</h2>
             <p className="text-base sm:text-lg text-brand-stone font-light leading-relaxed max-w-3xl mx-auto mb-12">
-              Our team brings new luxury projects to life every day. More beautifully designed spaces and inspiring transformations will be added soon. Stay tuned as we continue to build exceptional interiors designed to exceed expectations.
+              Nossa equipe dá vida a novos projetos de luxo todos os dias. Mais espaços belamente concebidos e transformações inspiradoras serão adicionados em breve. Fique atento, pois continuaremos a construir interiores excepcionais, projetados para superar expectativas.
             </p>
             
             <div className="flex flex-wrap justify-center gap-6">
               {[1, 2, 3].map((item) => (
                 <div key={item} className="relative h-64 w-64 border border-brand-dark-border rounded-sm overflow-hidden flex items-center justify-center bg-brand-black/50 group shadow-card">
-                  <span className="text-brand-gold font-sans uppercase tracking-widest text-sm font-semibold z-10 group-hover:scale-110 transition-transform">Coming Soon</span>
+                  <span className="text-brand-gold font-sans uppercase tracking-widest text-sm font-semibold z-10 group-hover:scale-110 transition-transform">Em breve</span>
                   <Image src="/images/Coming-Soon-1.webp" alt="Coming Soon" fill className="object-cover opacity-20 mix-blend-overlay group-hover:opacity-30 transition-opacity" />
                 </div>
               ))}
@@ -373,8 +368,8 @@ export function ProjectsClient() {
           <div className="max-w-4xl mx-auto px-4 text-center">
             <SectionHeading
               eyebrow="READY TO TRANSFORM YOUR SPACE?"
-              title="Ready to start your project?"
-              description="Whether you are planning a renovation, a new construction, or need a reliable general contractor in Pompano Beach or anywhere in South Florida, Cavare Interiors is ready to bring your vision to life."
+              title="Pronto para começar seu projeto?"
+              description="Se você está planejando uma reforma, uma nova construção ou precisa de um empreiteiro geral confiável em Pompano Beach ou em qualquer lugar no sul da Flórida, a Cavare Interiors está pronta para dar vida à sua visão."
               align="center"
               className="mb-8"
             />
@@ -384,13 +379,13 @@ export function ProjectsClient() {
                 href="/contact"
                 className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-brand-gold hover:bg-[#d6b26e] text-brand-black font-sans text-xs uppercase tracking-widest font-bold rounded-sm transition-all duration-300 shadow-floating"
               >
-                Request a Quote Today
+                Solicite um orçamento hoje mesmo!
               </Link>
               <a
                 href="tel:7543157373"
                 className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-transparent border border-brand-black text-brand-black hover:bg-brand-black hover:text-white font-sans text-xs uppercase tracking-widest font-bold rounded-sm transition-all duration-300"
               >
-                Call 754-315-7373
+                Ligue para 754-315-7373
               </a>
             </div>
           </div>
