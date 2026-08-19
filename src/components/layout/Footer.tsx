@@ -111,14 +111,36 @@ export const Footer: React.FC = () => {
               </li>
             </ul>
 
-            {/* Future Social Media Placement placeholder */}
-            {/* 
-            <div className="flex items-center space-x-3 pt-2">
-              <a href="#" className="w-8 h-8 rounded-full border border-brand-dark-border flex items-center justify-center text-brand-stone hover:text-brand-gold hover:border-brand-gold transition-colors">
-                <i className="bi bi-instagram"></i>
+            {/* Social Media Links */}
+            <div className="flex items-center space-x-3 pt-4">
+              <a 
+                href="https://www.tiktok.com/@cavareinteriors" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="Cavare Interiors on TikTok"
+                className="w-8 h-8 rounded-full border border-brand-dark-border flex items-center justify-center text-brand-stone hover:text-brand-gold hover:border-brand-gold transition-colors"
+              >
+                <i className="bi bi-tiktok text-sm"></i>
               </a>
-            </div> 
-            */}
+              <a 
+                href="#" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="Cavare Interiors on Instagram"
+                className="w-8 h-8 rounded-full border border-brand-dark-border flex items-center justify-center text-brand-stone hover:text-brand-gold hover:border-brand-gold transition-colors"
+              >
+                <i className="bi bi-instagram text-sm"></i>
+              </a>
+              <a 
+                href="#" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="Cavare Interiors on Facebook"
+                className="w-8 h-8 rounded-full border border-brand-dark-border flex items-center justify-center text-brand-stone hover:text-brand-gold hover:border-brand-gold transition-colors"
+              >
+                <i className="bi bi-facebook text-sm"></i>
+              </a>
+            </div>
           </div>
         </div>
 
